@@ -10,11 +10,6 @@
 #include "Poco/DigestStream.h"
 #include "Poco/StreamCopier.h"
 
-//using Poco::DigestEngine;
-//using Poco::MD5Engine;
-//using Poco::DigestOutputStream;
-//using Poco::StreamCopier;
-
 class ofxMD5{
 public:
     string calcHash(string _s){
